@@ -1,9 +1,12 @@
 package com.blog.blogproject.dto;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Setter
+@Getter
 public class AddUserRequest {
-    private String userEmail;
-    private String userPassword;
+    private String email;
+    private String password;
 }
